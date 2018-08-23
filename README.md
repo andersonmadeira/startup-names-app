@@ -1,11 +1,11 @@
-# startup_names
+# Startup Names Generator
 
-<img src="/img/screenshot1.png?raw=true" style="display:inline;" alt="Home Page" width="200"/>
-<img src="/img/screenshot2.png?raw=true" style="display:inline;" alt="Home Page" width="200"/>
+<img src="/img/screenshot1.png?raw=true" style="display:inline;" alt="Home Page" width="200"/> <img src="/img/screenshot2.png?raw=true" style="display:inline;" alt="Home Page" width="200"/>
 
-A new Flutter project.
+Google Code Lab's intro guide to Flutter with a few customizations.
 
-## Getting Started
+## Build/Run
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+Build/run it using VS Code, Android Studio or on the command line:
+
+```$ flutter run```
