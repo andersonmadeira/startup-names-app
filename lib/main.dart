@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
         title: 'Welcome to Flutter',
         home: MaterialApp(
           title: 'Startup Name Generator',
+          theme: ThemeData.dark(),
           home: RandomWords(),
         ));
   }
@@ -90,7 +91,7 @@ class RandomWordsState extends State<RandomWords> {
       ),
       trailing: new Icon(
         alreadySaved ? Icons.favorite : Icons.favorite_border,
-        color: alreadySaved ? Colors.red : null,
+        color: alreadySaved ? Colors.white : null,
       ),
       onTap: () {
         setState(() {
